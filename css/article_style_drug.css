@@ -1,0 +1,174 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-image: "img/background.jpg";
+    background-attachment: fixed;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'PyeongChangPeace-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/PyeongChangPeace-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.page_top{
+    width: 100%;
+    height: 480px;
+    background-color: chocolate;
+    background-image: url("../img/rrm_drug/back.png");
+    background-size: 100%;
+    
+}
+
+
+.page_top h1{
+    padding-top: 200px;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 600;
+    /* line-height: 240px; */
+}
+
+
+.page_top p{
+    padding-top: 40px;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+
+.container{
+    width: 66%;
+    height: 8000px;
+    position: relative;
+}
+
+
+
+
+
+.check_list{
+    width: 66%;
+    margin: auto;
+    height: 700px;
+}
+
+
+
+.ar001 .ar002 .ar003 .ar004 .ar005 .ar006 .ar007 .ar008 .ar009
+{
+    width: 100%; 
+}
+
+img { margin-top: 20px;}
+
+h2 {
+    margin-top: 120px;
+    font-size: 28px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 600;
+    line-height: 100px;
+}
+
+
+
+
+
+
+
+
+
+head .img{
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+.main_top {
+    width: 100%;
+    height: 540px;
+    /* background-color: blueviolet; */
+    background-image: url(../img/main_top_back.jpg);
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #444;
+
+}
+
+.footer_message{
+    width: 66%;
+    padding-top: 50px;
+    height: 120px;
+    margin: auto auto;
+    color: #aaa;
+
+}
