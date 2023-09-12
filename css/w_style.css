@@ -993,6 +993,15 @@ html {
     color: #e6af4b;
   }
   
+  .desc h2 {
+    font-weight: 600;
+    font-size: 1.01rem;
+  }
+
+
+
+
+
   /*  Special Portfolio Page  */
   .special-portfolio-header-title {
     border: 1px solid rgba(255, 255, 255, 0.7);
