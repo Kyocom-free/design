@@ -130,7 +130,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	margin: 0 40px 0 40px;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #d43031;
+	color: #0eb9e4;
 }
 .on {
 	background-color: #262626 !important;
@@ -156,6 +156,15 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .section-title {
 	margin-bottom: 70px;
+}
+.section-notice  {
+	margin-bottom: 36px;
+}
+.section-notice h4{
+	font-size: 28px;
+	font-weight: 800;
+	color : #45a3dd;
+	font-family: 'omyu_pretty';
 }
 .section-title .overlay {
 	padding: 80px 0;
