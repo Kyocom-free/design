@@ -99,6 +99,8 @@ html {
     margin: 0 0 40px;
   }
   
+  video { max-width: 80%; display: block; margin: 20px auto; }
+
   .examples.bg-dark {
     background: #333;
     border: 0;
